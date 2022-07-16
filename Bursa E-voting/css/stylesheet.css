@@ -1,0 +1,35 @@
+/*This page is where all the style used in this system.*/
+body{
+    background-color: white;
+}
+
+#headerSection{
+    padding: 5px;
+    background-color: white;
+
+}
+
+#headerSection h1{
+    font-family: cursive;
+}
+
+input{
+    padding: 10px;
+}
+
+#loginbtn{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #d1d8e0;
+}
+
+#bodySection{
+    background-color: #686de0;
+    color: white;
+}
+
+#bodySection h2{
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}

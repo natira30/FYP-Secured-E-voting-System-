@@ -1,0 +1,46 @@
+<! This is where the html file of registration function >
+<html>
+    <head>
+        <title> Login </title>
+        <link rel = "stylesheet" href = "css/stylesheet.css" >
+    </head>
+
+    <body>
+        <style>
+            #bodySection{
+                border: 2px solid black;
+            }
+            #adminpagebtn{
+                float: right;
+            }
+        </style>
+        <center>
+            <div id = "headerSection" > 
+                <form method = "POST" action = "../Bursa%20E-Voting/api/adminverification.php">
+                    <button id = "adminpagebtn"> Admin </button>
+                </form>
+                <img name = bursaimage src = "BursaIcon.png" height = "15%" width = "9%" >
+            </div>
+            <hr>
+
+        
+            <div id = "bodySection">
+                <! This function will direct to login page > 
+                <form action = "api/login.php" method = "POST" autocomplete = "off">
+                    <input type = "hidden" name = "action" value = "login">
+                    <h2> Bursa Marketplace</h2>
+    
+                    <label> Email Address: </label> &nbsp &nbsp
+                    <input type = "text" name = "email_address" placeholder = "Enter Email Address"> <br> <br>
+                    <label> Password     :      </label> &nbsp &nbsp
+                    <input type = "password" name = "password" placeholder = "Enter Password"> <br> <br>
+    
+                    <button id = "loginbtn" type = "submit" > Login </button> <br> <br>
+                    Not have an account? <a href = "routes/register.html" > Register here </a> <br>
+                </form>
+            </div>
+
+        </center>
+    </body>
+
+</html>
