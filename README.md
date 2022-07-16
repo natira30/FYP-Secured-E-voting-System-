@@ -26,7 +26,7 @@ To Run this Project
 5. Search "http://localhost/phpmyadmin/" on the internet browser.
 6. Create new database and name it "bursa" and push the create button.
 7. Then go to "import".
-8. In "file to import" section, choose file named "user.sql" and push the "import button.
+8. In "file to import" section, choose file named "user.sql" and push the "import" button.
 9. Then you can see all the database have been stored inside the phpmyadmin.
 10. Search "http://localhost/Bursa%20E-voting/" on the internet browser.
 
